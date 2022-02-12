@@ -1,0 +1,38 @@
+.flex {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.flex > div {
+    border: 1px solid black;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.flex > button {
+    border: 1px solid black;
+    width: 152px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+.btn {
+    margin-top: 40px;
+    padding: 15px 20px;
+    border-radius: 30px;
+    margin-left: 10px;
+    border: 0;
+    cursor: pointer;
+    background-color: #5F9EA0;
+}
+
+.forForm {
+    border: 1px solid black;
+    padding: 30px;
+    
+}
